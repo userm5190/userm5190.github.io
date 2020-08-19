@@ -386,7 +386,7 @@
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
-  background-color: #f19e38;
+  background-color: #ffbe94;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -395,7 +395,8 @@
 }
 
 .button:hover {
-  background-color: #ffc174;
+  background-color: #000;
+  color: #fff;
 }
 
 .nav-link {
@@ -1981,6 +1982,9 @@
 @media screen and (max-width: 479px) {
   .body {
     background-color: #ffbe94;
+  }
+  .intro {
+    margin-bottom: 43px;
   }
   .intro_text_parent {
     height: 30vh;
